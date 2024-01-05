@@ -1,0 +1,800 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		272DE7A12B2C7FB000E8F07D /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 272DE7A02B2C7FB000E8F07D /* HomeView.swift */; };
+		2732B7592B2ECA7200E6560E /* NavigatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2732B7582B2ECA7200E6560E /* NavigatorView.swift */; };
+		2755EBFC2AFF69EB003EAC38 /* InputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2755EBFB2AFF69EB003EAC38 /* InputView.swift */; };
+		2755EC002AFF6D25003EAC38 /* AuthViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2755EBFF2AFF6D25003EAC38 /* AuthViewModel.swift */; };
+		2755EC022AFF7003003EAC38 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2755EC012AFF7003003EAC38 /* ProfileView.swift */; };
+		2755EC052AFF743B003EAC38 /* Bundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2755EC042AFF743B003EAC38 /* Bundle.swift */; };
+		2755EC072AFF7463003EAC38 /* AppIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2755EC062AFF7463003EAC38 /* AppIcon.swift */; };
+		27E8732E2AFF492700E66C16 /* chitmeoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27E8732D2AFF492700E66C16 /* chitmeoApp.swift */; };
+		27E873342AFF492800E66C16 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27E873332AFF492800E66C16 /* Assets.xcassets */; };
+		27E873382AFF492800E66C16 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27E873372AFF492800E66C16 /* Preview Assets.xcassets */; };
+		27E873422AFF492800E66C16 /* chitmeoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27E873412AFF492800E66C16 /* chitmeoTests.swift */; };
+		27E8734C2AFF492800E66C16 /* chitmeoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27E8734B2AFF492800E66C16 /* chitmeoUITests.swift */; };
+		27E8734E2AFF492800E66C16 /* chitmeoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27E8734D2AFF492800E66C16 /* chitmeoUITestsLaunchTests.swift */; };
+		27E8735C2AFF499900E66C16 /* ChitmeoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27E8735B2AFF499900E66C16 /* ChitmeoView.swift */; };
+		27E8735F2AFF4A1500E66C16 /* UserInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27E8735E2AFF4A1500E66C16 /* UserInfo.swift */; };
+		27E873642AFF4A7600E66C16 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27E873632AFF4A7600E66C16 /* LoginView.swift */; };
+		27F482192B3EFA4000E34318 /* AuthenManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27F482182B3EFA4000E34318 /* AuthenManager.swift */; };
+		27F4821B2B3EFA6400E34318 /* LoginScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27F4821A2B3EFA6400E34318 /* LoginScreenView.swift */; };
+		27F4821D2B3EFA8C00E34318 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27F4821C2B3EFA8C00E34318 /* ContentView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		27E8733E2AFF492800E66C16 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 27E873222AFF492700E66C16 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 27E873292AFF492700E66C16;
+			remoteInfo = chitmeo;
+		};
+		27E873482AFF492800E66C16 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 27E873222AFF492700E66C16 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 27E873292AFF492700E66C16;
+			remoteInfo = chitmeo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		272DE7A02B2C7FB000E8F07D /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		2732B7582B2ECA7200E6560E /* NavigatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigatorView.swift; sourceTree = "<group>"; };
+		2755EBFB2AFF69EB003EAC38 /* InputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputView.swift; sourceTree = "<group>"; };
+		2755EBFF2AFF6D25003EAC38 /* AuthViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewModel.swift; sourceTree = "<group>"; };
+		2755EC012AFF7003003EAC38 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		2755EC042AFF743B003EAC38 /* Bundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bundle.swift; sourceTree = "<group>"; };
+		2755EC062AFF7463003EAC38 /* AppIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppIcon.swift; sourceTree = "<group>"; };
+		27E8732A2AFF492700E66C16 /* chitmeo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = chitmeo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		27E8732D2AFF492700E66C16 /* chitmeoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = chitmeoApp.swift; sourceTree = "<group>"; };
+		27E873332AFF492800E66C16 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		27E873352AFF492800E66C16 /* chitmeo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = chitmeo.entitlements; sourceTree = "<group>"; };
+		27E873372AFF492800E66C16 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		27E8733D2AFF492800E66C16 /* chitmeoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = chitmeoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		27E873412AFF492800E66C16 /* chitmeoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = chitmeoTests.swift; sourceTree = "<group>"; };
+		27E873472AFF492800E66C16 /* chitmeoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = chitmeoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		27E8734B2AFF492800E66C16 /* chitmeoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = chitmeoUITests.swift; sourceTree = "<group>"; };
+		27E8734D2AFF492800E66C16 /* chitmeoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = chitmeoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		27E8735B2AFF499900E66C16 /* ChitmeoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChitmeoView.swift; sourceTree = "<group>"; };
+		27E8735E2AFF4A1500E66C16 /* UserInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfo.swift; sourceTree = "<group>"; };
+		27E873632AFF4A7600E66C16 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		27F482182B3EFA4000E34318 /* AuthenManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenManager.swift; sourceTree = "<group>"; };
+		27F4821A2B3EFA6400E34318 /* LoginScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginScreenView.swift; sourceTree = "<group>"; };
+		27F4821C2B3EFA8C00E34318 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		27E873272AFF492700E66C16 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27E8733A2AFF492800E66C16 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27E873442AFF492800E66C16 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		272DE79F2B2C7FA600E8F07D /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				272DE7A02B2C7FB000E8F07D /* HomeView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		2755EBF52AFF692E003EAC38 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				27E8732D2AFF492700E66C16 /* chitmeoApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		2755EBF62AFF693B003EAC38 /* Root */ = {
+			isa = PBXGroup;
+			children = (
+				27E8735B2AFF499900E66C16 /* ChitmeoView.swift */,
+				2732B7582B2ECA7200E6560E /* NavigatorView.swift */,
+			);
+			path = Root;
+			sourceTree = "<group>";
+		};
+		2755EBF72AFF6957003EAC38 /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				2755EBFD2AFF6D0B003EAC38 /* View */,
+				2755EBFE2AFF6D10003EAC38 /* ViewModel */,
+			);
+			path = Authentication;
+			sourceTree = "<group>";
+		};
+		2755EBF92AFF696B003EAC38 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				2755EC012AFF7003003EAC38 /* ProfileView.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		2755EBFA2AFF69D5003EAC38 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				2755EBFB2AFF69EB003EAC38 /* InputView.swift */,
+				2755EC062AFF7463003EAC38 /* AppIcon.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		2755EBFD2AFF6D0B003EAC38 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				27E873632AFF4A7600E66C16 /* LoginView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2755EBFE2AFF6D10003EAC38 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				2755EBFF2AFF6D25003EAC38 /* AuthViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		2755EC032AFF7433003EAC38 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				2755EC042AFF743B003EAC38 /* Bundle.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		27E873212AFF492700E66C16 = {
+			isa = PBXGroup;
+			children = (
+				27E8732C2AFF492700E66C16 /* chitmeo */,
+				27E873402AFF492800E66C16 /* chitmeoTests */,
+				27E8734A2AFF492800E66C16 /* chitmeoUITests */,
+				27E8732B2AFF492700E66C16 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		27E8732B2AFF492700E66C16 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				27E8732A2AFF492700E66C16 /* chitmeo.app */,
+				27E8733D2AFF492800E66C16 /* chitmeoTests.xctest */,
+				27E873472AFF492800E66C16 /* chitmeoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		27E8732C2AFF492700E66C16 /* chitmeo */ = {
+			isa = PBXGroup;
+			children = (
+				2755EC032AFF7433003EAC38 /* Extensions */,
+				2755EBF52AFF692E003EAC38 /* App */,
+				2755EBFA2AFF69D5003EAC38 /* Components */,
+				27E8735D2AFF4A0800E66C16 /* Models */,
+				27E8735A2AFF497E00E66C16 /* Views */,
+				27E873332AFF492800E66C16 /* Assets.xcassets */,
+				27E873352AFF492800E66C16 /* chitmeo.entitlements */,
+				27E873362AFF492800E66C16 /* Preview Content */,
+			);
+			path = chitmeo;
+			sourceTree = "<group>";
+		};
+		27E873362AFF492800E66C16 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				27E873372AFF492800E66C16 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		27E873402AFF492800E66C16 /* chitmeoTests */ = {
+			isa = PBXGroup;
+			children = (
+				27E873412AFF492800E66C16 /* chitmeoTests.swift */,
+			);
+			path = chitmeoTests;
+			sourceTree = "<group>";
+		};
+		27E8734A2AFF492800E66C16 /* chitmeoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				27E8734B2AFF492800E66C16 /* chitmeoUITests.swift */,
+				27E8734D2AFF492800E66C16 /* chitmeoUITestsLaunchTests.swift */,
+			);
+			path = chitmeoUITests;
+			sourceTree = "<group>";
+		};
+		27E8735A2AFF497E00E66C16 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				27F482172B3EFA3100E34318 /* Study */,
+				272DE79F2B2C7FA600E8F07D /* Home */,
+				2755EBF62AFF693B003EAC38 /* Root */,
+				27E873602AFF4A5500E66C16 /* Users */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		27E8735D2AFF4A0800E66C16 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				27E8735E2AFF4A1500E66C16 /* UserInfo.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		27E873602AFF4A5500E66C16 /* Users */ = {
+			isa = PBXGroup;
+			children = (
+				2755EBF92AFF696B003EAC38 /* Profile */,
+				2755EBF72AFF6957003EAC38 /* Authentication */,
+			);
+			path = Users;
+			sourceTree = "<group>";
+		};
+		27F482172B3EFA3100E34318 /* Study */ = {
+			isa = PBXGroup;
+			children = (
+				27F482182B3EFA4000E34318 /* AuthenManager.swift */,
+				27F4821A2B3EFA6400E34318 /* LoginScreenView.swift */,
+				27F4821C2B3EFA8C00E34318 /* ContentView.swift */,
+			);
+			path = Study;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		27E873292AFF492700E66C16 /* chitmeo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 27E873512AFF492800E66C16 /* Build configuration list for PBXNativeTarget "chitmeo" */;
+			buildPhases = (
+				27E873262AFF492700E66C16 /* Sources */,
+				27E873272AFF492700E66C16 /* Frameworks */,
+				27E873282AFF492700E66C16 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = chitmeo;
+			packageProductDependencies = (
+			);
+			productName = chitmeo;
+			productReference = 27E8732A2AFF492700E66C16 /* chitmeo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		27E8733C2AFF492800E66C16 /* chitmeoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 27E873542AFF492800E66C16 /* Build configuration list for PBXNativeTarget "chitmeoTests" */;
+			buildPhases = (
+				27E873392AFF492800E66C16 /* Sources */,
+				27E8733A2AFF492800E66C16 /* Frameworks */,
+				27E8733B2AFF492800E66C16 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				27E8733F2AFF492800E66C16 /* PBXTargetDependency */,
+			);
+			name = chitmeoTests;
+			productName = chitmeoTests;
+			productReference = 27E8733D2AFF492800E66C16 /* chitmeoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		27E873462AFF492800E66C16 /* chitmeoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 27E873572AFF492800E66C16 /* Build configuration list for PBXNativeTarget "chitmeoUITests" */;
+			buildPhases = (
+				27E873432AFF492800E66C16 /* Sources */,
+				27E873442AFF492800E66C16 /* Frameworks */,
+				27E873452AFF492800E66C16 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				27E873492AFF492800E66C16 /* PBXTargetDependency */,
+			);
+			name = chitmeoUITests;
+			productName = chitmeoUITests;
+			productReference = 27E873472AFF492800E66C16 /* chitmeoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		27E873222AFF492700E66C16 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					27E873292AFF492700E66C16 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+					27E8733C2AFF492800E66C16 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = 27E873292AFF492700E66C16;
+					};
+					27E873462AFF492800E66C16 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = 27E873292AFF492700E66C16;
+					};
+				};
+			};
+			buildConfigurationList = 27E873252AFF492700E66C16 /* Build configuration list for PBXProject "chitmeo" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 27E873212AFF492700E66C16;
+			packageReferences = (
+				2755EC0E2AFFE088003EAC38 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */,
+			);
+			productRefGroup = 27E8732B2AFF492700E66C16 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				27E873292AFF492700E66C16 /* chitmeo */,
+				27E8733C2AFF492800E66C16 /* chitmeoTests */,
+				27E873462AFF492800E66C16 /* chitmeoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		27E873282AFF492700E66C16 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27E873382AFF492800E66C16 /* Preview Assets.xcassets in Resources */,
+				27E873342AFF492800E66C16 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27E8733B2AFF492800E66C16 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27E873452AFF492800E66C16 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		27E873262AFF492700E66C16 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27E873642AFF4A7600E66C16 /* LoginView.swift in Sources */,
+				2755EC052AFF743B003EAC38 /* Bundle.swift in Sources */,
+				27F4821D2B3EFA8C00E34318 /* ContentView.swift in Sources */,
+				2755EC072AFF7463003EAC38 /* AppIcon.swift in Sources */,
+				272DE7A12B2C7FB000E8F07D /* HomeView.swift in Sources */,
+				27E8735C2AFF499900E66C16 /* ChitmeoView.swift in Sources */,
+				2755EC002AFF6D25003EAC38 /* AuthViewModel.swift in Sources */,
+				2755EBFC2AFF69EB003EAC38 /* InputView.swift in Sources */,
+				27E8735F2AFF4A1500E66C16 /* UserInfo.swift in Sources */,
+				27F4821B2B3EFA6400E34318 /* LoginScreenView.swift in Sources */,
+				2732B7592B2ECA7200E6560E /* NavigatorView.swift in Sources */,
+				2755EC022AFF7003003EAC38 /* ProfileView.swift in Sources */,
+				27F482192B3EFA4000E34318 /* AuthenManager.swift in Sources */,
+				27E8732E2AFF492700E66C16 /* chitmeoApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27E873392AFF492800E66C16 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27E873422AFF492800E66C16 /* chitmeoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27E873432AFF492800E66C16 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27E8734E2AFF492800E66C16 /* chitmeoUITestsLaunchTests.swift in Sources */,
+				27E8734C2AFF492800E66C16 /* chitmeoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		27E8733F2AFF492800E66C16 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 27E873292AFF492700E66C16 /* chitmeo */;
+			targetProxy = 27E8733E2AFF492800E66C16 /* PBXContainerItemProxy */;
+		};
+		27E873492AFF492800E66C16 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 27E873292AFF492700E66C16 /* chitmeo */;
+			targetProxy = 27E873482AFF492800E66C16 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		27E8734F2AFF492800E66C16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		27E873502AFF492800E66C16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		27E873522AFF492800E66C16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = chitmeo/chitmeo.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"chitmeo/Preview Content\"";
+				DEVELOPMENT_TEAM = XP7AP9RF83;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Chitmeo;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.reference";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.chitmeo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		27E873532AFF492800E66C16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = chitmeo/chitmeo.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"chitmeo/Preview Content\"";
+				DEVELOPMENT_TEAM = XP7AP9RF83;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Chitmeo;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.reference";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.chitmeo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		27E873552AFF492800E66C16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XP7AP9RF83;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.chitmeoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/chitmeo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/chitmeo";
+			};
+			name = Debug;
+		};
+		27E873562AFF492800E66C16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XP7AP9RF83;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.chitmeoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/chitmeo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/chitmeo";
+			};
+			name = Release;
+		};
+		27E873582AFF492800E66C16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XP7AP9RF83;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.chitmeoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_TARGET_NAME = chitmeo;
+			};
+			name = Debug;
+		};
+		27E873592AFF492800E66C16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XP7AP9RF83;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.chitmeoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_TARGET_NAME = chitmeo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		27E873252AFF492700E66C16 /* Build configuration list for PBXProject "chitmeo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27E8734F2AFF492800E66C16 /* Debug */,
+				27E873502AFF492800E66C16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		27E873512AFF492800E66C16 /* Build configuration list for PBXNativeTarget "chitmeo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27E873522AFF492800E66C16 /* Debug */,
+				27E873532AFF492800E66C16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		27E873542AFF492800E66C16 /* Build configuration list for PBXNativeTarget "chitmeoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27E873552AFF492800E66C16 /* Debug */,
+				27E873562AFF492800E66C16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		27E873572AFF492800E66C16 /* Build configuration list for PBXNativeTarget "chitmeoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27E873582AFF492800E66C16 /* Debug */,
+				27E873592AFF492800E66C16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		2755EC0E2AFFE088003EAC38 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/google/GoogleSignIn-iOS";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+	};
+	rootObject = 27E873222AFF492700E66C16 /* Project object */;
+}
